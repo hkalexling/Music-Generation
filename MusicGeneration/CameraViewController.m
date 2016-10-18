@@ -133,9 +133,9 @@
 }
 
 - (void)musicFromColor:(UIColor *)color{
-	// Red value determins the interval between sounds
-	// Green value determins sound type
-	// Blue value determins pitch
+	// Red value determines the interval between sounds
+	// Green value determines sound type
+	// Blue value determines pitch
 	
 	const CGFloat* components = CGColorGetComponents(color.CGColor);
 	CGFloat r = components[0];
