@@ -1,604 +1,2124 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		710F46B81DB4A891002688C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 710F46B71DB4A891002688C1 /* main.m */; };
-		710F46BB1DB4A891002688C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 710F46BA1DB4A891002688C1 /* AppDelegate.m */; };
-		710F46BE1DB4A891002688C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710F46BD1DB4A891002688C1 /* ViewController.m */; };
-		710F46C11DB4A891002688C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710F46BF1DB4A891002688C1 /* Main.storyboard */; };
-		710F46C31DB4A891002688C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 710F46C21DB4A891002688C1 /* Assets.xcassets */; };
-		710F46C61DB4A891002688C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710F46C41DB4A891002688C1 /* LaunchScreen.storyboard */; };
-		710F47451DB4A960002688C1 /* Music.m in Sources */ = {isa = PBXBuildFile; fileRef = 710F47441DB4A960002688C1 /* Music.m */; };
-		710F47F91DB4BC12002688C1 /* celesta-0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47BE1DB4BC12002688C1 /* celesta-0.mp3 */; };
-		710F47FA1DB4BC12002688C1 /* celesta-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47BF1DB4BC12002688C1 /* celesta-1.mp3 */; };
-		710F47FB1DB4BC12002688C1 /* celesta-10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47C01DB4BC12002688C1 /* celesta-10.mp3 */; };
-		710F47FC1DB4BC12002688C1 /* celesta-11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47C11DB4BC12002688C1 /* celesta-11.mp3 */; };
-		710F47FD1DB4BC12002688C1 /* celesta-12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47C21DB4BC12002688C1 /* celesta-12.mp3 */; };
-		710F47FE1DB4BC12002688C1 /* celesta-13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47C31DB4BC12002688C1 /* celesta-13.mp3 */; };
-		710F47FF1DB4BC12002688C1 /* celesta-14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47C41DB4BC12002688C1 /* celesta-14.mp3 */; };
-		710F48001DB4BC12002688C1 /* celesta-15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47C51DB4BC12002688C1 /* celesta-15.mp3 */; };
-		710F48011DB4BC12002688C1 /* celesta-16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47C61DB4BC12002688C1 /* celesta-16.mp3 */; };
-		710F48021DB4BC12002688C1 /* celesta-17.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47C71DB4BC12002688C1 /* celesta-17.mp3 */; };
-		710F48031DB4BC12002688C1 /* celesta-18.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47C81DB4BC12002688C1 /* celesta-18.mp3 */; };
-		710F48041DB4BC12002688C1 /* celesta-19.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47C91DB4BC12002688C1 /* celesta-19.mp3 */; };
-		710F48051DB4BC12002688C1 /* celesta-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47CA1DB4BC12002688C1 /* celesta-2.mp3 */; };
-		710F48061DB4BC12002688C1 /* celesta-20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47CB1DB4BC12002688C1 /* celesta-20.mp3 */; };
-		710F48071DB4BC12002688C1 /* celesta-21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47CC1DB4BC12002688C1 /* celesta-21.mp3 */; };
-		710F48081DB4BC12002688C1 /* celesta-22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47CD1DB4BC12002688C1 /* celesta-22.mp3 */; };
-		710F48091DB4BC12002688C1 /* celesta-23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47CE1DB4BC12002688C1 /* celesta-23.mp3 */; };
-		710F480A1DB4BC12002688C1 /* celesta-24.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47CF1DB4BC12002688C1 /* celesta-24.mp3 */; };
-		710F480B1DB4BC12002688C1 /* celesta-25.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47D01DB4BC12002688C1 /* celesta-25.mp3 */; };
-		710F480C1DB4BC12002688C1 /* celesta-26.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47D11DB4BC12002688C1 /* celesta-26.mp3 */; };
-		710F480D1DB4BC12002688C1 /* celesta-3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47D21DB4BC12002688C1 /* celesta-3.mp3 */; };
-		710F480E1DB4BC12002688C1 /* celesta-4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47D31DB4BC12002688C1 /* celesta-4.mp3 */; };
-		710F480F1DB4BC12002688C1 /* celesta-5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47D41DB4BC12002688C1 /* celesta-5.mp3 */; };
-		710F48101DB4BC12002688C1 /* celesta-6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47D51DB4BC12002688C1 /* celesta-6.mp3 */; };
-		710F48111DB4BC12002688C1 /* celesta-7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47D61DB4BC12002688C1 /* celesta-7.mp3 */; };
-		710F48121DB4BC12002688C1 /* celesta-8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47D71DB4BC12002688C1 /* celesta-8.mp3 */; };
-		710F48131DB4BC12002688C1 /* celesta-9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47D81DB4BC12002688C1 /* celesta-9.mp3 */; };
-		710F48141DB4BC12002688C1 /* clav-0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47DA1DB4BC12002688C1 /* clav-0.mp3 */; };
-		710F48151DB4BC12002688C1 /* clav-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47DB1DB4BC12002688C1 /* clav-1.mp3 */; };
-		710F48161DB4BC12002688C1 /* clav-10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47DC1DB4BC12002688C1 /* clav-10.mp3 */; };
-		710F48171DB4BC12002688C1 /* clav-11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47DD1DB4BC12002688C1 /* clav-11.mp3 */; };
-		710F48181DB4BC12002688C1 /* clav-12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47DE1DB4BC12002688C1 /* clav-12.mp3 */; };
-		710F48191DB4BC12002688C1 /* clav-13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47DF1DB4BC12002688C1 /* clav-13.mp3 */; };
-		710F481A1DB4BC12002688C1 /* clav-14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47E01DB4BC12002688C1 /* clav-14.mp3 */; };
-		710F481B1DB4BC12002688C1 /* clav-15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47E11DB4BC12002688C1 /* clav-15.mp3 */; };
-		710F481C1DB4BC12002688C1 /* clav-16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47E21DB4BC12002688C1 /* clav-16.mp3 */; };
-		710F481D1DB4BC12002688C1 /* clav-17.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47E31DB4BC12002688C1 /* clav-17.mp3 */; };
-		710F481E1DB4BC12002688C1 /* clav-18.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47E41DB4BC12002688C1 /* clav-18.mp3 */; };
-		710F481F1DB4BC12002688C1 /* clav-19.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47E51DB4BC12002688C1 /* clav-19.mp3 */; };
-		710F48201DB4BC12002688C1 /* clav-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47E61DB4BC12002688C1 /* clav-2.mp3 */; };
-		710F48211DB4BC12002688C1 /* clav-20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47E71DB4BC12002688C1 /* clav-20.mp3 */; };
-		710F48221DB4BC12002688C1 /* clav-21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47E81DB4BC12002688C1 /* clav-21.mp3 */; };
-		710F48231DB4BC12002688C1 /* clav-22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47E91DB4BC12002688C1 /* clav-22.mp3 */; };
-		710F48241DB4BC12002688C1 /* clav-23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47EA1DB4BC12002688C1 /* clav-23.mp3 */; };
-		710F48251DB4BC12002688C1 /* clav-24.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47EB1DB4BC12002688C1 /* clav-24.mp3 */; };
-		710F48261DB4BC12002688C1 /* clav-25.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47EC1DB4BC12002688C1 /* clav-25.mp3 */; };
-		710F48271DB4BC12002688C1 /* clav-26.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47ED1DB4BC12002688C1 /* clav-26.mp3 */; };
-		710F48281DB4BC12002688C1 /* clav-3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47EE1DB4BC12002688C1 /* clav-3.mp3 */; };
-		710F48291DB4BC12002688C1 /* clav-4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47EF1DB4BC12002688C1 /* clav-4.mp3 */; };
-		710F482A1DB4BC12002688C1 /* clav-5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47F01DB4BC12002688C1 /* clav-5.mp3 */; };
-		710F482B1DB4BC12002688C1 /* clav-6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47F11DB4BC12002688C1 /* clav-6.mp3 */; };
-		710F482C1DB4BC12002688C1 /* clav-7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47F21DB4BC12002688C1 /* clav-7.mp3 */; };
-		710F482D1DB4BC12002688C1 /* clav-8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47F31DB4BC12002688C1 /* clav-8.mp3 */; };
-		710F482E1DB4BC12002688C1 /* clav-9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47F41DB4BC12002688C1 /* clav-9.mp3 */; };
-		710F482F1DB4BC12002688C1 /* swells-0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47F61DB4BC12002688C1 /* swells-0.mp3 */; };
-		710F48301DB4BC12002688C1 /* swells-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47F71DB4BC12002688C1 /* swells-1.mp3 */; };
-		710F48311DB4BC12002688C1 /* swells-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 710F47F81DB4BC12002688C1 /* swells-2.mp3 */; };
-		7120D2FE1DB52815006085B7 /* UIImage+AverageColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7120D2FD1DB52815006085B7 /* UIImage+AverageColor.m */; };
-		71685CDF1DB5E1C20030A3AE /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71685CDE1DB5E1C20030A3AE /* CameraViewController.m */; };
-		71685CE21DB5E1E00030A3AE /* UIImage+FromCIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 71685CE11DB5E1E00030A3AE /* UIImage+FromCIImage.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXFileReference section */
-		710F46B31DB4A891002688C1 /* MusicGeneration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicGeneration.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		710F46B71DB4A891002688C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		710F46B91DB4A891002688C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		710F46BA1DB4A891002688C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		710F46BC1DB4A891002688C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		710F46BD1DB4A891002688C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		710F46C01DB4A891002688C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		710F46C21DB4A891002688C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		710F46C51DB4A891002688C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		710F46C71DB4A891002688C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		710F47431DB4A960002688C1 /* Music.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Music.h; sourceTree = "<group>"; };
-		710F47441DB4A960002688C1 /* Music.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Music.m; sourceTree = "<group>"; };
-		710F47BE1DB4BC12002688C1 /* celesta-0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-0.mp3"; sourceTree = "<group>"; };
-		710F47BF1DB4BC12002688C1 /* celesta-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-1.mp3"; sourceTree = "<group>"; };
-		710F47C01DB4BC12002688C1 /* celesta-10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-10.mp3"; sourceTree = "<group>"; };
-		710F47C11DB4BC12002688C1 /* celesta-11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-11.mp3"; sourceTree = "<group>"; };
-		710F47C21DB4BC12002688C1 /* celesta-12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-12.mp3"; sourceTree = "<group>"; };
-		710F47C31DB4BC12002688C1 /* celesta-13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-13.mp3"; sourceTree = "<group>"; };
-		710F47C41DB4BC12002688C1 /* celesta-14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-14.mp3"; sourceTree = "<group>"; };
-		710F47C51DB4BC12002688C1 /* celesta-15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-15.mp3"; sourceTree = "<group>"; };
-		710F47C61DB4BC12002688C1 /* celesta-16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-16.mp3"; sourceTree = "<group>"; };
-		710F47C71DB4BC12002688C1 /* celesta-17.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-17.mp3"; sourceTree = "<group>"; };
-		710F47C81DB4BC12002688C1 /* celesta-18.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-18.mp3"; sourceTree = "<group>"; };
-		710F47C91DB4BC12002688C1 /* celesta-19.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-19.mp3"; sourceTree = "<group>"; };
-		710F47CA1DB4BC12002688C1 /* celesta-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-2.mp3"; sourceTree = "<group>"; };
-		710F47CB1DB4BC12002688C1 /* celesta-20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-20.mp3"; sourceTree = "<group>"; };
-		710F47CC1DB4BC12002688C1 /* celesta-21.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-21.mp3"; sourceTree = "<group>"; };
-		710F47CD1DB4BC12002688C1 /* celesta-22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-22.mp3"; sourceTree = "<group>"; };
-		710F47CE1DB4BC12002688C1 /* celesta-23.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-23.mp3"; sourceTree = "<group>"; };
-		710F47CF1DB4BC12002688C1 /* celesta-24.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-24.mp3"; sourceTree = "<group>"; };
-		710F47D01DB4BC12002688C1 /* celesta-25.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-25.mp3"; sourceTree = "<group>"; };
-		710F47D11DB4BC12002688C1 /* celesta-26.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-26.mp3"; sourceTree = "<group>"; };
-		710F47D21DB4BC12002688C1 /* celesta-3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-3.mp3"; sourceTree = "<group>"; };
-		710F47D31DB4BC12002688C1 /* celesta-4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-4.mp3"; sourceTree = "<group>"; };
-		710F47D41DB4BC12002688C1 /* celesta-5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-5.mp3"; sourceTree = "<group>"; };
-		710F47D51DB4BC12002688C1 /* celesta-6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-6.mp3"; sourceTree = "<group>"; };
-		710F47D61DB4BC12002688C1 /* celesta-7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-7.mp3"; sourceTree = "<group>"; };
-		710F47D71DB4BC12002688C1 /* celesta-8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-8.mp3"; sourceTree = "<group>"; };
-		710F47D81DB4BC12002688C1 /* celesta-9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "celesta-9.mp3"; sourceTree = "<group>"; };
-		710F47DA1DB4BC12002688C1 /* clav-0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-0.mp3"; sourceTree = "<group>"; };
-		710F47DB1DB4BC12002688C1 /* clav-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-1.mp3"; sourceTree = "<group>"; };
-		710F47DC1DB4BC12002688C1 /* clav-10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-10.mp3"; sourceTree = "<group>"; };
-		710F47DD1DB4BC12002688C1 /* clav-11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-11.mp3"; sourceTree = "<group>"; };
-		710F47DE1DB4BC12002688C1 /* clav-12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-12.mp3"; sourceTree = "<group>"; };
-		710F47DF1DB4BC12002688C1 /* clav-13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-13.mp3"; sourceTree = "<group>"; };
-		710F47E01DB4BC12002688C1 /* clav-14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-14.mp3"; sourceTree = "<group>"; };
-		710F47E11DB4BC12002688C1 /* clav-15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-15.mp3"; sourceTree = "<group>"; };
-		710F47E21DB4BC12002688C1 /* clav-16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-16.mp3"; sourceTree = "<group>"; };
-		710F47E31DB4BC12002688C1 /* clav-17.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-17.mp3"; sourceTree = "<group>"; };
-		710F47E41DB4BC12002688C1 /* clav-18.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-18.mp3"; sourceTree = "<group>"; };
-		710F47E51DB4BC12002688C1 /* clav-19.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-19.mp3"; sourceTree = "<group>"; };
-		710F47E61DB4BC12002688C1 /* clav-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-2.mp3"; sourceTree = "<group>"; };
-		710F47E71DB4BC12002688C1 /* clav-20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-20.mp3"; sourceTree = "<group>"; };
-		710F47E81DB4BC12002688C1 /* clav-21.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-21.mp3"; sourceTree = "<group>"; };
-		710F47E91DB4BC12002688C1 /* clav-22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-22.mp3"; sourceTree = "<group>"; };
-		710F47EA1DB4BC12002688C1 /* clav-23.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-23.mp3"; sourceTree = "<group>"; };
-		710F47EB1DB4BC12002688C1 /* clav-24.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-24.mp3"; sourceTree = "<group>"; };
-		710F47EC1DB4BC12002688C1 /* clav-25.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-25.mp3"; sourceTree = "<group>"; };
-		710F47ED1DB4BC12002688C1 /* clav-26.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-26.mp3"; sourceTree = "<group>"; };
-		710F47EE1DB4BC12002688C1 /* clav-3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-3.mp3"; sourceTree = "<group>"; };
-		710F47EF1DB4BC12002688C1 /* clav-4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-4.mp3"; sourceTree = "<group>"; };
-		710F47F01DB4BC12002688C1 /* clav-5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-5.mp3"; sourceTree = "<group>"; };
-		710F47F11DB4BC12002688C1 /* clav-6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-6.mp3"; sourceTree = "<group>"; };
-		710F47F21DB4BC12002688C1 /* clav-7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-7.mp3"; sourceTree = "<group>"; };
-		710F47F31DB4BC12002688C1 /* clav-8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-8.mp3"; sourceTree = "<group>"; };
-		710F47F41DB4BC12002688C1 /* clav-9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "clav-9.mp3"; sourceTree = "<group>"; };
-		710F47F61DB4BC12002688C1 /* swells-0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "swells-0.mp3"; sourceTree = "<group>"; };
-		710F47F71DB4BC12002688C1 /* swells-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "swells-1.mp3"; sourceTree = "<group>"; };
-		710F47F81DB4BC12002688C1 /* swells-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "swells-2.mp3"; sourceTree = "<group>"; };
-		7120D2FC1DB52815006085B7 /* UIImage+AverageColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AverageColor.h"; sourceTree = "<group>"; };
-		7120D2FD1DB52815006085B7 /* UIImage+AverageColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AverageColor.m"; sourceTree = "<group>"; };
-		71685CDD1DB5E1C20030A3AE /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
-		71685CDE1DB5E1C20030A3AE /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
-		71685CE01DB5E1E00030A3AE /* UIImage+FromCIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FromCIImage.h"; sourceTree = "<group>"; };
-		71685CE11DB5E1E00030A3AE /* UIImage+FromCIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FromCIImage.m"; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		710F46B01DB4A891002688C1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		710F46AA1DB4A891002688C1 = {
-			isa = PBXGroup;
-			children = (
-				710F47BC1DB4BC12002688C1 /* sounds */,
-				710F46B51DB4A891002688C1 /* MusicGeneration */,
-				710F46B41DB4A891002688C1 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		710F46B41DB4A891002688C1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				710F46B31DB4A891002688C1 /* MusicGeneration.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		710F46B51DB4A891002688C1 /* MusicGeneration */ = {
-			isa = PBXGroup;
-			children = (
-				710F46B91DB4A891002688C1 /* AppDelegate.h */,
-				710F46BA1DB4A891002688C1 /* AppDelegate.m */,
-				710F46BC1DB4A891002688C1 /* ViewController.h */,
-				710F46BD1DB4A891002688C1 /* ViewController.m */,
-				71685CDD1DB5E1C20030A3AE /* CameraViewController.h */,
-				71685CDE1DB5E1C20030A3AE /* CameraViewController.m */,
-				710F47431DB4A960002688C1 /* Music.h */,
-				710F47441DB4A960002688C1 /* Music.m */,
-				7120D2FC1DB52815006085B7 /* UIImage+AverageColor.h */,
-				7120D2FD1DB52815006085B7 /* UIImage+AverageColor.m */,
-				71685CE01DB5E1E00030A3AE /* UIImage+FromCIImage.h */,
-				71685CE11DB5E1E00030A3AE /* UIImage+FromCIImage.m */,
-				710F46BF1DB4A891002688C1 /* Main.storyboard */,
-				710F46C21DB4A891002688C1 /* Assets.xcassets */,
-				710F46C41DB4A891002688C1 /* LaunchScreen.storyboard */,
-				710F46C71DB4A891002688C1 /* Info.plist */,
-				710F46B61DB4A891002688C1 /* Supporting Files */,
-			);
-			path = MusicGeneration;
-			sourceTree = "<group>";
-		};
-		710F46B61DB4A891002688C1 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				710F46B71DB4A891002688C1 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		710F47BC1DB4BC12002688C1 /* sounds */ = {
-			isa = PBXGroup;
-			children = (
-				710F47BD1DB4BC12002688C1 /* celesta */,
-				710F47D91DB4BC12002688C1 /* clav */,
-				710F47F51DB4BC12002688C1 /* swells */,
-			);
-			path = sounds;
-			sourceTree = "<group>";
-		};
-		710F47BD1DB4BC12002688C1 /* celesta */ = {
-			isa = PBXGroup;
-			children = (
-				710F47BE1DB4BC12002688C1 /* celesta-0.mp3 */,
-				710F47BF1DB4BC12002688C1 /* celesta-1.mp3 */,
-				710F47C01DB4BC12002688C1 /* celesta-10.mp3 */,
-				710F47C11DB4BC12002688C1 /* celesta-11.mp3 */,
-				710F47C21DB4BC12002688C1 /* celesta-12.mp3 */,
-				710F47C31DB4BC12002688C1 /* celesta-13.mp3 */,
-				710F47C41DB4BC12002688C1 /* celesta-14.mp3 */,
-				710F47C51DB4BC12002688C1 /* celesta-15.mp3 */,
-				710F47C61DB4BC12002688C1 /* celesta-16.mp3 */,
-				710F47C71DB4BC12002688C1 /* celesta-17.mp3 */,
-				710F47C81DB4BC12002688C1 /* celesta-18.mp3 */,
-				710F47C91DB4BC12002688C1 /* celesta-19.mp3 */,
-				710F47CA1DB4BC12002688C1 /* celesta-2.mp3 */,
-				710F47CB1DB4BC12002688C1 /* celesta-20.mp3 */,
-				710F47CC1DB4BC12002688C1 /* celesta-21.mp3 */,
-				710F47CD1DB4BC12002688C1 /* celesta-22.mp3 */,
-				710F47CE1DB4BC12002688C1 /* celesta-23.mp3 */,
-				710F47CF1DB4BC12002688C1 /* celesta-24.mp3 */,
-				710F47D01DB4BC12002688C1 /* celesta-25.mp3 */,
-				710F47D11DB4BC12002688C1 /* celesta-26.mp3 */,
-				710F47D21DB4BC12002688C1 /* celesta-3.mp3 */,
-				710F47D31DB4BC12002688C1 /* celesta-4.mp3 */,
-				710F47D41DB4BC12002688C1 /* celesta-5.mp3 */,
-				710F47D51DB4BC12002688C1 /* celesta-6.mp3 */,
-				710F47D61DB4BC12002688C1 /* celesta-7.mp3 */,
-				710F47D71DB4BC12002688C1 /* celesta-8.mp3 */,
-				710F47D81DB4BC12002688C1 /* celesta-9.mp3 */,
-			);
-			path = celesta;
-			sourceTree = "<group>";
-		};
-		710F47D91DB4BC12002688C1 /* clav */ = {
-			isa = PBXGroup;
-			children = (
-				710F47DA1DB4BC12002688C1 /* clav-0.mp3 */,
-				710F47DB1DB4BC12002688C1 /* clav-1.mp3 */,
-				710F47DC1DB4BC12002688C1 /* clav-10.mp3 */,
-				710F47DD1DB4BC12002688C1 /* clav-11.mp3 */,
-				710F47DE1DB4BC12002688C1 /* clav-12.mp3 */,
-				710F47DF1DB4BC12002688C1 /* clav-13.mp3 */,
-				710F47E01DB4BC12002688C1 /* clav-14.mp3 */,
-				710F47E11DB4BC12002688C1 /* clav-15.mp3 */,
-				710F47E21DB4BC12002688C1 /* clav-16.mp3 */,
-				710F47E31DB4BC12002688C1 /* clav-17.mp3 */,
-				710F47E41DB4BC12002688C1 /* clav-18.mp3 */,
-				710F47E51DB4BC12002688C1 /* clav-19.mp3 */,
-				710F47E61DB4BC12002688C1 /* clav-2.mp3 */,
-				710F47E71DB4BC12002688C1 /* clav-20.mp3 */,
-				710F47E81DB4BC12002688C1 /* clav-21.mp3 */,
-				710F47E91DB4BC12002688C1 /* clav-22.mp3 */,
-				710F47EA1DB4BC12002688C1 /* clav-23.mp3 */,
-				710F47EB1DB4BC12002688C1 /* clav-24.mp3 */,
-				710F47EC1DB4BC12002688C1 /* clav-25.mp3 */,
-				710F47ED1DB4BC12002688C1 /* clav-26.mp3 */,
-				710F47EE1DB4BC12002688C1 /* clav-3.mp3 */,
-				710F47EF1DB4BC12002688C1 /* clav-4.mp3 */,
-				710F47F01DB4BC12002688C1 /* clav-5.mp3 */,
-				710F47F11DB4BC12002688C1 /* clav-6.mp3 */,
-				710F47F21DB4BC12002688C1 /* clav-7.mp3 */,
-				710F47F31DB4BC12002688C1 /* clav-8.mp3 */,
-				710F47F41DB4BC12002688C1 /* clav-9.mp3 */,
-			);
-			path = clav;
-			sourceTree = "<group>";
-		};
-		710F47F51DB4BC12002688C1 /* swells */ = {
-			isa = PBXGroup;
-			children = (
-				710F47F61DB4BC12002688C1 /* swells-0.mp3 */,
-				710F47F71DB4BC12002688C1 /* swells-1.mp3 */,
-				710F47F81DB4BC12002688C1 /* swells-2.mp3 */,
-			);
-			path = swells;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		710F46B21DB4A891002688C1 /* MusicGeneration */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 710F46CA1DB4A891002688C1 /* Build configuration list for PBXNativeTarget "MusicGeneration" */;
-			buildPhases = (
-				710F46AF1DB4A891002688C1 /* Sources */,
-				710F46B01DB4A891002688C1 /* Frameworks */,
-				710F46B11DB4A891002688C1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MusicGeneration;
-			productName = MusicGeneration;
-			productReference = 710F46B31DB4A891002688C1 /* MusicGeneration.app */;
-			productType = "com.apple.product-type.application";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		710F46AB1DB4A891002688C1 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0810;
-				ORGANIZATIONNAME = "Alex Ling";
-				TargetAttributes = {
-					710F46B21DB4A891002688C1 = {
-						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 9947S4AFL2;
-						ProvisioningStyle = Automatic;
-					};
-				};
-			};
-			buildConfigurationList = 710F46AE1DB4A891002688C1 /* Build configuration list for PBXProject "MusicGeneration" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 710F46AA1DB4A891002688C1;
-			productRefGroup = 710F46B41DB4A891002688C1 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				710F46B21DB4A891002688C1 /* MusicGeneration */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		710F46B11DB4A891002688C1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				710F481E1DB4BC12002688C1 /* clav-18.mp3 in Resources */,
-				710F46C61DB4A891002688C1 /* LaunchScreen.storyboard in Resources */,
-				710F48251DB4BC12002688C1 /* clav-24.mp3 in Resources */,
-				710F480B1DB4BC12002688C1 /* celesta-25.mp3 in Resources */,
-				710F48081DB4BC12002688C1 /* celesta-22.mp3 in Resources */,
-				710F48071DB4BC12002688C1 /* celesta-21.mp3 in Resources */,
-				710F480C1DB4BC12002688C1 /* celesta-26.mp3 in Resources */,
-				710F482F1DB4BC12002688C1 /* swells-0.mp3 in Resources */,
-				710F481C1DB4BC12002688C1 /* clav-16.mp3 in Resources */,
-				710F48141DB4BC12002688C1 /* clav-0.mp3 in Resources */,
-				710F48091DB4BC12002688C1 /* celesta-23.mp3 in Resources */,
-				710F48271DB4BC12002688C1 /* clav-26.mp3 in Resources */,
-				710F48261DB4BC12002688C1 /* clav-25.mp3 in Resources */,
-				710F48011DB4BC12002688C1 /* celesta-16.mp3 in Resources */,
-				710F481B1DB4BC12002688C1 /* clav-15.mp3 in Resources */,
-				710F48191DB4BC12002688C1 /* clav-13.mp3 in Resources */,
-				710F48161DB4BC12002688C1 /* clav-10.mp3 in Resources */,
-				710F48201DB4BC12002688C1 /* clav-2.mp3 in Resources */,
-				710F47FB1DB4BC12002688C1 /* celesta-10.mp3 in Resources */,
-				710F481F1DB4BC12002688C1 /* clav-19.mp3 in Resources */,
-				710F48131DB4BC12002688C1 /* celesta-9.mp3 in Resources */,
-				710F48241DB4BC12002688C1 /* clav-23.mp3 in Resources */,
-				710F481A1DB4BC12002688C1 /* clav-14.mp3 in Resources */,
-				710F48031DB4BC12002688C1 /* celesta-18.mp3 in Resources */,
-				710F47F91DB4BC12002688C1 /* celesta-0.mp3 in Resources */,
-				710F482C1DB4BC12002688C1 /* clav-7.mp3 in Resources */,
-				710F48151DB4BC12002688C1 /* clav-1.mp3 in Resources */,
-				710F47FF1DB4BC12002688C1 /* celesta-14.mp3 in Resources */,
-				710F48211DB4BC12002688C1 /* clav-20.mp3 in Resources */,
-				710F47FC1DB4BC12002688C1 /* celesta-11.mp3 in Resources */,
-				710F48231DB4BC12002688C1 /* clav-22.mp3 in Resources */,
-				710F48111DB4BC12002688C1 /* celesta-7.mp3 in Resources */,
-				710F47FE1DB4BC12002688C1 /* celesta-13.mp3 in Resources */,
-				710F48021DB4BC12002688C1 /* celesta-17.mp3 in Resources */,
-				710F48281DB4BC12002688C1 /* clav-3.mp3 in Resources */,
-				710F48001DB4BC12002688C1 /* celesta-15.mp3 in Resources */,
-				710F480A1DB4BC12002688C1 /* celesta-24.mp3 in Resources */,
-				710F48181DB4BC12002688C1 /* clav-12.mp3 in Resources */,
-				710F480F1DB4BC12002688C1 /* celesta-5.mp3 in Resources */,
-				710F48311DB4BC12002688C1 /* swells-2.mp3 in Resources */,
-				710F48101DB4BC12002688C1 /* celesta-6.mp3 in Resources */,
-				710F46C31DB4A891002688C1 /* Assets.xcassets in Resources */,
-				710F48301DB4BC12002688C1 /* swells-1.mp3 in Resources */,
-				710F48291DB4BC12002688C1 /* clav-4.mp3 in Resources */,
-				710F48171DB4BC12002688C1 /* clav-11.mp3 in Resources */,
-				710F48061DB4BC12002688C1 /* celesta-20.mp3 in Resources */,
-				710F48221DB4BC12002688C1 /* clav-21.mp3 in Resources */,
-				710F480E1DB4BC12002688C1 /* celesta-4.mp3 in Resources */,
-				710F48051DB4BC12002688C1 /* celesta-2.mp3 in Resources */,
-				710F47FD1DB4BC12002688C1 /* celesta-12.mp3 in Resources */,
-				710F482A1DB4BC12002688C1 /* clav-5.mp3 in Resources */,
-				710F480D1DB4BC12002688C1 /* celesta-3.mp3 in Resources */,
-				710F48121DB4BC12002688C1 /* celesta-8.mp3 in Resources */,
-				710F481D1DB4BC12002688C1 /* clav-17.mp3 in Resources */,
-				710F482D1DB4BC12002688C1 /* clav-8.mp3 in Resources */,
-				710F46C11DB4A891002688C1 /* Main.storyboard in Resources */,
-				710F482E1DB4BC12002688C1 /* clav-9.mp3 in Resources */,
-				710F48041DB4BC12002688C1 /* celesta-19.mp3 in Resources */,
-				710F47FA1DB4BC12002688C1 /* celesta-1.mp3 in Resources */,
-				710F482B1DB4BC12002688C1 /* clav-6.mp3 in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		710F46AF1DB4A891002688C1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7120D2FE1DB52815006085B7 /* UIImage+AverageColor.m in Sources */,
-				710F46BE1DB4A891002688C1 /* ViewController.m in Sources */,
-				710F46BB1DB4A891002688C1 /* AppDelegate.m in Sources */,
-				71685CDF1DB5E1C20030A3AE /* CameraViewController.m in Sources */,
-				710F46B81DB4A891002688C1 /* main.m in Sources */,
-				710F47451DB4A960002688C1 /* Music.m in Sources */,
-				71685CE21DB5E1E00030A3AE /* UIImage+FromCIImage.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		710F46BF1DB4A891002688C1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				710F46C01DB4A891002688C1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		710F46C41DB4A891002688C1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				710F46C51DB4A891002688C1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		710F46C81DB4A891002688C1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		710F46C91DB4A891002688C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		710F46CB1DB4A891002688C1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9947S4AFL2;
-				INFOPLIST_FILE = MusicGeneration/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = hkalexling.MusicGeneration;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		710F46CC1DB4A891002688C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9947S4AFL2;
-				INFOPLIST_FILE = MusicGeneration/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = hkalexling.MusicGeneration;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		710F46AE1DB4A891002688C1 /* Build configuration list for PBXProject "MusicGeneration" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				710F46C81DB4A891002688C1 /* Debug */,
-				710F46C91DB4A891002688C1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		710F46CA1DB4A891002688C1 /* Build configuration list for PBXNativeTarget "MusicGeneration" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				710F46CB1DB4A891002688C1 /* Debug */,
-				710F46CC1DB4A891002688C1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 710F46AB1DB4A891002688C1 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>1922598A209DB639D9C4BEB1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC7D57B31FF9857C41D19E6F</string>
+				<string>F81D7CC34D2D8AD526E66C0B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5DA5EE10502B7CFD61F8762B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>&#128230; Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-MusicGeneration/Pods-MusicGeneration-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>65D8DF8FB56F752B03F36424</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods_MusicGeneration.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>710F46AA1DB4A891002688C1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>710F47BC1DB4BC12002688C1</string>
+				<string>710F46B51DB4A891002688C1</string>
+				<string>710F46B41DB4A891002688C1</string>
+				<string>1922598A209DB639D9C4BEB1</string>
+				<string>9210FAE8A727AA07B50F73B8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F46AB1DB4A891002688C1</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0810</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Alex Ling</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>710F46B21DB4A891002688C1</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>8.1</string>
+						<key>DevelopmentTeam</key>
+						<string>9947S4AFL2</string>
+						<key>ProvisioningStyle</key>
+						<string>Automatic</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>710F46AE1DB4A891002688C1</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>710F46AA1DB4A891002688C1</string>
+			<key>productRefGroup</key>
+			<string>710F46B41DB4A891002688C1</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>710F46B21DB4A891002688C1</string>
+			</array>
+		</dict>
+		<key>710F46AE1DB4A891002688C1</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>710F46C81DB4A891002688C1</string>
+				<string>710F46C91DB4A891002688C1</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>710F46AF1DB4A891002688C1</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>7120D2FE1DB52815006085B7</string>
+				<string>710F46BE1DB4A891002688C1</string>
+				<string>710F46BB1DB4A891002688C1</string>
+				<string>71685CDF1DB5E1C20030A3AE</string>
+				<string>710F46B81DB4A891002688C1</string>
+				<string>710F47451DB4A960002688C1</string>
+				<string>71685CE21DB5E1E00030A3AE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>710F46B01DB4A891002688C1</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>73F82CCAFD3B077FA104FD86</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>710F46B11DB4A891002688C1</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>710F481E1DB4BC12002688C1</string>
+				<string>710F46C61DB4A891002688C1</string>
+				<string>710F48251DB4BC12002688C1</string>
+				<string>710F480B1DB4BC12002688C1</string>
+				<string>710F48081DB4BC12002688C1</string>
+				<string>710F48071DB4BC12002688C1</string>
+				<string>710F480C1DB4BC12002688C1</string>
+				<string>710F482F1DB4BC12002688C1</string>
+				<string>710F481C1DB4BC12002688C1</string>
+				<string>710F48141DB4BC12002688C1</string>
+				<string>710F48091DB4BC12002688C1</string>
+				<string>710F48271DB4BC12002688C1</string>
+				<string>710F48261DB4BC12002688C1</string>
+				<string>710F48011DB4BC12002688C1</string>
+				<string>710F481B1DB4BC12002688C1</string>
+				<string>710F48191DB4BC12002688C1</string>
+				<string>710F48161DB4BC12002688C1</string>
+				<string>710F48201DB4BC12002688C1</string>
+				<string>710F47FB1DB4BC12002688C1</string>
+				<string>710F481F1DB4BC12002688C1</string>
+				<string>710F48131DB4BC12002688C1</string>
+				<string>710F48241DB4BC12002688C1</string>
+				<string>710F481A1DB4BC12002688C1</string>
+				<string>710F48031DB4BC12002688C1</string>
+				<string>710F47F91DB4BC12002688C1</string>
+				<string>710F482C1DB4BC12002688C1</string>
+				<string>710F48151DB4BC12002688C1</string>
+				<string>710F47FF1DB4BC12002688C1</string>
+				<string>710F48211DB4BC12002688C1</string>
+				<string>710F47FC1DB4BC12002688C1</string>
+				<string>710F48231DB4BC12002688C1</string>
+				<string>710F48111DB4BC12002688C1</string>
+				<string>710F47FE1DB4BC12002688C1</string>
+				<string>710F48021DB4BC12002688C1</string>
+				<string>710F48281DB4BC12002688C1</string>
+				<string>710F48001DB4BC12002688C1</string>
+				<string>710F480A1DB4BC12002688C1</string>
+				<string>710F48181DB4BC12002688C1</string>
+				<string>710F480F1DB4BC12002688C1</string>
+				<string>710F48311DB4BC12002688C1</string>
+				<string>710F48101DB4BC12002688C1</string>
+				<string>710F46C31DB4A891002688C1</string>
+				<string>710F48301DB4BC12002688C1</string>
+				<string>710F48291DB4BC12002688C1</string>
+				<string>710F48171DB4BC12002688C1</string>
+				<string>710F48061DB4BC12002688C1</string>
+				<string>710F48221DB4BC12002688C1</string>
+				<string>710F480E1DB4BC12002688C1</string>
+				<string>710F48051DB4BC12002688C1</string>
+				<string>710F47FD1DB4BC12002688C1</string>
+				<string>710F482A1DB4BC12002688C1</string>
+				<string>710F480D1DB4BC12002688C1</string>
+				<string>710F48121DB4BC12002688C1</string>
+				<string>710F481D1DB4BC12002688C1</string>
+				<string>710F482D1DB4BC12002688C1</string>
+				<string>710F46C11DB4A891002688C1</string>
+				<string>710F482E1DB4BC12002688C1</string>
+				<string>710F48041DB4BC12002688C1</string>
+				<string>710F47FA1DB4BC12002688C1</string>
+				<string>710F482B1DB4BC12002688C1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>710F46B21DB4A891002688C1</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>710F46CA1DB4A891002688C1</string>
+			<key>buildPhases</key>
+			<array>
+				<string>A21C7A0CEE927AE42778D1F9</string>
+				<string>710F46AF1DB4A891002688C1</string>
+				<string>710F46B01DB4A891002688C1</string>
+				<string>710F46B11DB4A891002688C1</string>
+				<string>D86878F5A10FDF1055164144</string>
+				<string>5DA5EE10502B7CFD61F8762B</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>MusicGeneration</string>
+			<key>productName</key>
+			<string>MusicGeneration</string>
+			<key>productReference</key>
+			<string>710F46B31DB4A891002688C1</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>710F46B31DB4A891002688C1</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>MusicGeneration.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>710F46B41DB4A891002688C1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>710F46B31DB4A891002688C1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F46B51DB4A891002688C1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>710F46B91DB4A891002688C1</string>
+				<string>710F46BA1DB4A891002688C1</string>
+				<string>710F46BC1DB4A891002688C1</string>
+				<string>710F46BD1DB4A891002688C1</string>
+				<string>71685CDD1DB5E1C20030A3AE</string>
+				<string>71685CDE1DB5E1C20030A3AE</string>
+				<string>710F47431DB4A960002688C1</string>
+				<string>710F47441DB4A960002688C1</string>
+				<string>7120D2FC1DB52815006085B7</string>
+				<string>7120D2FD1DB52815006085B7</string>
+				<string>71685CE01DB5E1E00030A3AE</string>
+				<string>71685CE11DB5E1E00030A3AE</string>
+				<string>710F46BF1DB4A891002688C1</string>
+				<string>710F46C21DB4A891002688C1</string>
+				<string>710F46C41DB4A891002688C1</string>
+				<string>710F46C71DB4A891002688C1</string>
+				<string>710F46B61DB4A891002688C1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>MusicGeneration</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F46B61DB4A891002688C1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>710F46B71DB4A891002688C1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F46B71DB4A891002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F46B81DB4A891002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F46B71DB4A891002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F46B91DB4A891002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F46BA1DB4A891002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F46BB1DB4A891002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F46BA1DB4A891002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F46BC1DB4A891002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F46BD1DB4A891002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F46BE1DB4A891002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F46BD1DB4A891002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F46BF1DB4A891002688C1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>710F46C01DB4A891002688C1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F46C01DB4A891002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F46C11DB4A891002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F46BF1DB4A891002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F46C21DB4A891002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F46C31DB4A891002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F46C21DB4A891002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F46C41DB4A891002688C1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>710F46C51DB4A891002688C1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F46C51DB4A891002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F46C61DB4A891002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F46C41DB4A891002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F46C71DB4A891002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F46C81DB4A891002688C1</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INFINITE_RECURSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_SUSPICIOUS_MOVES</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>710F46C91DB4A891002688C1</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INFINITE_RECURSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_SUSPICIOUS_MOVES</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>710F46CA1DB4A891002688C1</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>710F46CB1DB4A891002688C1</string>
+				<string>710F46CC1DB4A891002688C1</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>710F46CB1DB4A891002688C1</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>BC7D57B31FF9857C41D19E6F</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>9947S4AFL2</string>
+				<key>INFOPLIST_FILE</key>
+				<string>MusicGeneration/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>hkalexling.MusicGeneration</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>710F46CC1DB4A891002688C1</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>F81D7CC34D2D8AD526E66C0B</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>9947S4AFL2</string>
+				<key>INFOPLIST_FILE</key>
+				<string>MusicGeneration/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>hkalexling.MusicGeneration</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>710F47431DB4A960002688C1</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Music.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47441DB4A960002688C1</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Music.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47451DB4A960002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47441DB4A960002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F47BC1DB4BC12002688C1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>710F47BD1DB4BC12002688C1</string>
+				<string>710F47D91DB4BC12002688C1</string>
+				<string>710F47F51DB4BC12002688C1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>sounds</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47BD1DB4BC12002688C1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>710F47BE1DB4BC12002688C1</string>
+				<string>710F47BF1DB4BC12002688C1</string>
+				<string>710F47C01DB4BC12002688C1</string>
+				<string>710F47C11DB4BC12002688C1</string>
+				<string>710F47C21DB4BC12002688C1</string>
+				<string>710F47C31DB4BC12002688C1</string>
+				<string>710F47C41DB4BC12002688C1</string>
+				<string>710F47C51DB4BC12002688C1</string>
+				<string>710F47C61DB4BC12002688C1</string>
+				<string>710F47C71DB4BC12002688C1</string>
+				<string>710F47C81DB4BC12002688C1</string>
+				<string>710F47C91DB4BC12002688C1</string>
+				<string>710F47CA1DB4BC12002688C1</string>
+				<string>710F47CB1DB4BC12002688C1</string>
+				<string>710F47CC1DB4BC12002688C1</string>
+				<string>710F47CD1DB4BC12002688C1</string>
+				<string>710F47CE1DB4BC12002688C1</string>
+				<string>710F47CF1DB4BC12002688C1</string>
+				<string>710F47D01DB4BC12002688C1</string>
+				<string>710F47D11DB4BC12002688C1</string>
+				<string>710F47D21DB4BC12002688C1</string>
+				<string>710F47D31DB4BC12002688C1</string>
+				<string>710F47D41DB4BC12002688C1</string>
+				<string>710F47D51DB4BC12002688C1</string>
+				<string>710F47D61DB4BC12002688C1</string>
+				<string>710F47D71DB4BC12002688C1</string>
+				<string>710F47D81DB4BC12002688C1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>celesta</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47BE1DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-0.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47BF1DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-1.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47C01DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-10.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47C11DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-11.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47C21DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-12.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47C31DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-13.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47C41DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-14.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47C51DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-15.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47C61DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-16.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47C71DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-17.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47C81DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-18.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47C91DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-19.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47CA1DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-2.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47CB1DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-20.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47CC1DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-21.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47CD1DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-22.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47CE1DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-23.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47CF1DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-24.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47D01DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-25.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47D11DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-26.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47D21DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-3.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47D31DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-4.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47D41DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-5.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47D51DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-6.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47D61DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-7.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47D71DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-8.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47D81DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>celesta-9.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47D91DB4BC12002688C1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>710F47DA1DB4BC12002688C1</string>
+				<string>710F47DB1DB4BC12002688C1</string>
+				<string>710F47DC1DB4BC12002688C1</string>
+				<string>710F47DD1DB4BC12002688C1</string>
+				<string>710F47DE1DB4BC12002688C1</string>
+				<string>710F47DF1DB4BC12002688C1</string>
+				<string>710F47E01DB4BC12002688C1</string>
+				<string>710F47E11DB4BC12002688C1</string>
+				<string>710F47E21DB4BC12002688C1</string>
+				<string>710F47E31DB4BC12002688C1</string>
+				<string>710F47E41DB4BC12002688C1</string>
+				<string>710F47E51DB4BC12002688C1</string>
+				<string>710F47E61DB4BC12002688C1</string>
+				<string>710F47E71DB4BC12002688C1</string>
+				<string>710F47E81DB4BC12002688C1</string>
+				<string>710F47E91DB4BC12002688C1</string>
+				<string>710F47EA1DB4BC12002688C1</string>
+				<string>710F47EB1DB4BC12002688C1</string>
+				<string>710F47EC1DB4BC12002688C1</string>
+				<string>710F47ED1DB4BC12002688C1</string>
+				<string>710F47EE1DB4BC12002688C1</string>
+				<string>710F47EF1DB4BC12002688C1</string>
+				<string>710F47F01DB4BC12002688C1</string>
+				<string>710F47F11DB4BC12002688C1</string>
+				<string>710F47F21DB4BC12002688C1</string>
+				<string>710F47F31DB4BC12002688C1</string>
+				<string>710F47F41DB4BC12002688C1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>clav</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47DA1DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-0.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47DB1DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-1.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47DC1DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-10.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47DD1DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-11.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47DE1DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-12.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47DF1DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-13.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47E01DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-14.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47E11DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-15.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47E21DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-16.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47E31DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-17.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47E41DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-18.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47E51DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-19.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47E61DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-2.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47E71DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-20.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47E81DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-21.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47E91DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-22.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47EA1DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-23.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47EB1DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-24.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47EC1DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-25.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47ED1DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-26.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47EE1DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-3.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47EF1DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-4.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47F01DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-5.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47F11DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-6.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47F21DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-7.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47F31DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-8.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47F41DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>clav-9.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47F51DB4BC12002688C1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>710F47F61DB4BC12002688C1</string>
+				<string>710F47F71DB4BC12002688C1</string>
+				<string>710F47F81DB4BC12002688C1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>swells</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47F61DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>swells-0.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47F71DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>swells-1.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47F81DB4BC12002688C1</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>audio.mp3</string>
+			<key>path</key>
+			<string>swells-2.mp3</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>710F47F91DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47BE1DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F47FA1DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47BF1DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F47FB1DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47C01DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F47FC1DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47C11DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F47FD1DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47C21DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F47FE1DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47C31DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F47FF1DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47C41DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48001DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47C51DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48011DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47C61DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48021DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47C71DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48031DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47C81DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48041DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47C91DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48051DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47CA1DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48061DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47CB1DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48071DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47CC1DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48081DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47CD1DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48091DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47CE1DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F480A1DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47CF1DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F480B1DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47D01DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F480C1DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47D11DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F480D1DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47D21DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F480E1DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47D31DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F480F1DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47D41DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48101DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47D51DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48111DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47D61DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48121DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47D71DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48131DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47D81DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48141DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47DA1DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48151DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47DB1DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48161DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47DC1DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48171DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47DD1DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48181DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47DE1DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48191DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47DF1DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F481A1DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47E01DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F481B1DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47E11DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F481C1DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47E21DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F481D1DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47E31DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F481E1DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47E41DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F481F1DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47E51DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48201DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47E61DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48211DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47E71DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48221DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47E81DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48231DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47E91DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48241DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47EA1DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48251DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47EB1DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48261DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47EC1DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48271DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47ED1DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48281DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47EE1DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48291DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47EF1DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F482A1DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47F01DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F482B1DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47F11DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F482C1DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47F21DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F482D1DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47F31DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F482E1DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47F41DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F482F1DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47F61DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48301DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47F71DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>710F48311DB4BC12002688C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>710F47F81DB4BC12002688C1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7120D2FC1DB52815006085B7</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>UIImage+AverageColor.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7120D2FD1DB52815006085B7</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>UIImage+AverageColor.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7120D2FE1DB52815006085B7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7120D2FD1DB52815006085B7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>71685CDD1DB5E1C20030A3AE</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CameraViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>71685CDE1DB5E1C20030A3AE</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>CameraViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>71685CDF1DB5E1C20030A3AE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>71685CDE1DB5E1C20030A3AE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>71685CE01DB5E1E00030A3AE</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>UIImage+FromCIImage.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>71685CE11DB5E1E00030A3AE</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>UIImage+FromCIImage.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>71685CE21DB5E1E00030A3AE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>71685CE11DB5E1E00030A3AE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>73F82CCAFD3B077FA104FD86</key>
+		<dict>
+			<key>fileRef</key>
+			<string>65D8DF8FB56F752B03F36424</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9210FAE8A727AA07B50F73B8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>65D8DF8FB56F752B03F36424</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A21C7A0CEE927AE42778D1F9</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>&#128230; Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>BC7D57B31FF9857C41D19E6F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-MusicGeneration.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-MusicGeneration/Pods-MusicGeneration.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D86878F5A10FDF1055164144</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>&#128230; Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-MusicGeneration/Pods-MusicGeneration-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>F81D7CC34D2D8AD526E66C0B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-MusicGeneration.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-MusicGeneration/Pods-MusicGeneration.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>710F46AB1DB4A891002688C1</string>
+</dict>
+</plist>

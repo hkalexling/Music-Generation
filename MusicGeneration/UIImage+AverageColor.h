@@ -10,6 +10,7 @@
 
 @interface UIImage(AverageColor)
 
-- (void)getAverageColorWithHandler: (void (^)(UIColor *color, NSError *error)) handler;
+- (void)CPUGetAverageColorWithHandler: (void (^)(UIColor *color)) handler;
+- (void)GPUGetAverageColorWithHandler: (void (^)(UIColor *color)) handler;
 
 @end

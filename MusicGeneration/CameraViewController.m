@@ -122,11 +122,10 @@
 	
 	[_context drawImage:ciImage inRect:_bounds fromRect:extent];
 	UIImage *img = [UIImage fromCIImage:ciImage];
-	[img getAverageColorWithHandler:^(UIColor *color, NSError *error) {
-		if (!error){
-			_colorView.backgroundColor = color;
-			[self musicFromColor:color];
-		}
+	
+	[img GPUGetAverageColorWithHandler:^(UIColor *color) {
+		_colorView.backgroundColor = color;
+		[self musicFromColor:color];
 	}];
 	
 	[_previewView display];
